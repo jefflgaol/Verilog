@@ -1,5 +1,5 @@
 $date
-	Wed Dec  2 12:35:01 2020
+	Wed Dec  2 13:05:34 2020
 $end
 $version
 	Icarus Verilog
@@ -7,7 +7,7 @@ $end
 $timescale
 	1s
 $end
-$scope module tb_custom_gate_1 $end
+$scope module tb_custom_gate_3 $end
 $var wire 1 ! f $end
 $var reg 1 " a $end
 $var reg 1 # b $end
@@ -25,19 +25,18 @@ $dumpvars
 0$
 0#
 0"
-0!
+1!
 $end
 #1
-1!
 1$
 #2
 0!
 0$
 1#
 #3
-1!
 1$
 #4
+1!
 0$
 0#
 1"
@@ -45,9 +44,7 @@ $end
 0!
 1$
 #6
-1!
 0$
 1#
 #7
-0!
 1$
