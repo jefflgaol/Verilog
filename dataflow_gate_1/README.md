@@ -1,4 +1,4 @@
-# Custom Gate 1
+# Dataflow Gate 1
 
 Truth table:
 | A | B | C | F |

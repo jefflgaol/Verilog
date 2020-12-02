@@ -1,4 +1,4 @@
-# Custom Gate 3
+# Dataflow Gate 3
 
 Truth table:
 | A | B | C | F |

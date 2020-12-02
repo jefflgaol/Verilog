@@ -1,6 +1,6 @@
 // iverilog -o main.vvp main.v
 
-module custom_gate (
+module dataflow_gate_0 (
     output wire F,
     input wire A, B, C
 );
@@ -9,17 +9,17 @@ module custom_gate (
 
 endmodule
 
-module tb_custom_gate ();
+module tb_dataflow_gate_0 ();
 
 reg a, b, c;
 wire f;
 
-custom_gate gate_1(.F(f), .A(a), .B(b), .C(c));
+dataflow_gate_0 gate_1(.F(f), .A(a), .B(b), .C(c));
 
 initial
     begin
-        $dumpfile("custom_gate_0.vcd");
-        $dumpvars(0, tb_custom_gate);
+        $dumpfile("dataflow_gate_0.vcd");
+        $dumpvars(0, tb_dataflow_gate_0);
         a = 1'b0;
         b = 1'b0;
         c = 1'b0;
