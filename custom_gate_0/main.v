@@ -18,7 +18,7 @@ custom_gate gate_1(.F(f), .A(a), .B(b), .C(c));
 
 initial
     begin
-        $dumpfile("custom_gate.vcd");
+        $dumpfile("custom_gate_0.vcd");
         $dumpvars(0, tb_custom_gate);
         a = 1'b0;
         b = 1'b0;
