@@ -1,0 +1,70 @@
+$date
+	Wed Dec  2 15:09:52 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_inertial_delay_gate $end
+$var wire 1 ! f $end
+$var reg 4 " abcd [3:0] $end
+$scope module gate_1 $end
+$var wire 4 # ABCD [3:0] $end
+$var wire 1 ! F $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 "
+x!
+$end
+#1
+b1 "
+b1 #
+#2
+b10 "
+b10 #
+1!
+#3
+b11 "
+b11 #
+#4
+b100 "
+b100 #
+#5
+b101 "
+b101 #
+#6
+b110 "
+b110 #
+#7
+b111 "
+b111 #
+#8
+b1000 "
+b1000 #
+#9
+b1001 "
+b1001 #
+#10
+b1010 "
+b1010 #
+#11
+b1011 "
+b1011 #
+#12
+b1100 "
+b1100 #
+#13
+b1101 "
+b1101 #
+#14
+b1110 "
+b1110 #
+#15
+b1111 "
+b1111 #
