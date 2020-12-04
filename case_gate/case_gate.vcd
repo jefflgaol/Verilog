@@ -1,0 +1,80 @@
+$date
+	Sat Dec  5 01:04:12 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_case_gate $end
+$var wire 1 ! f $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % d $end
+$scope module comp_1 $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var reg 1 ! F $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+1!
+$end
+#1
+1%
+#2
+1$
+0%
+#3
+0!
+1%
+#4
+1!
+1#
+0$
+0%
+#5
+1%
+#6
+1$
+0%
+#7
+0!
+1%
+#8
+1!
+1"
+0#
+0$
+0%
+#9
+1%
+#10
+1$
+0%
+#11
+0!
+1%
+#12
+1!
+1#
+0$
+0%
+#13
+1%
+#14
+1$
+0%
+#15
+0!
+1%
