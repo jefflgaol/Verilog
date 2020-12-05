@@ -1,0 +1,23 @@
+$date
+	Sun Dec  6 01:15:40 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_counter $end
+$var wire 5 ! count [4:0] $end
+$scope module comp_1 $end
+$var reg 5 " Count [4:0] $end
+$var integer 32 # i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 "
+b0 !
+$end
