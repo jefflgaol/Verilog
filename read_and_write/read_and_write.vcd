@@ -1,0 +1,98 @@
+$date
+	Sun Dec  6 19:19:51 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_read_and_write $end
+$var wire 1 ! f $end
+$var reg 4 " abcd [3:0] $end
+$var integer 32 # FILE [31:0] $end
+$var integer 32 $ i [31:0] $end
+$scope module DUT $end
+$var wire 4 % ABCD [3:0] $end
+$var reg 1 ! F $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+b10 #
+b0 "
+1!
+$end
+#1
+0!
+b1 "
+b1 %
+b1 $
+#2
+1!
+b10 "
+b10 %
+b10 $
+#3
+b11 "
+b11 %
+b11 $
+#4
+b100 "
+b100 %
+b100 $
+#5
+b101 "
+b101 %
+b101 $
+#6
+b110 "
+b110 %
+b110 $
+#7
+b111 "
+b111 %
+b111 $
+#8
+b1000 "
+b1000 %
+b1000 $
+#9
+0!
+b1001 "
+b1001 %
+b1001 $
+#10
+1!
+b1010 "
+b1010 %
+b1010 $
+#11
+0!
+b1011 "
+b1011 %
+b1011 $
+#12
+1!
+b1100 "
+b1100 %
+b1100 $
+#13
+0!
+b1101 "
+b1101 %
+b1101 $
+#14
+1!
+b1110 "
+b1110 %
+b1110 $
+#15
+b1111 "
+b1111 %
+b1111 $
+#16
+b10000 $
