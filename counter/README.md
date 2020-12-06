@@ -1,4 +1,4 @@
-# Shift Register
+# Counter
 
 ## How to compile?
 ```
