@@ -1,5 +1,5 @@
 # User-Defined Primitive
-
+This is a user-defined primitive implementation to create a device with behavior:
 | A | B | C | F |
 |---|---|---|---|
 | 0 | 0 | 0 | 0 |

@@ -1,5 +1,3 @@
-// iverilog -o main.vvp main.v
-
 module dataflow_gate_0 (
     output wire F,
     input wire A, B, C

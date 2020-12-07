@@ -1,6 +1,6 @@
 # Inertial Delay Gate
+This is an implementation of inertial delay gate.
 
-Truth table:
 | A | B | C | D | F |
 |---|---|---|---|---|
 | 0 | 0 | 0 | 0 | 1 |

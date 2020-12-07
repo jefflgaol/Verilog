@@ -1,6 +1,6 @@
 # XOR Gate
+This is a basic XOR gate implementation with behavior:
 
-Truth table:
 | A | B | F |
 |---|---|---|
 | 0 | 0 | 0 |

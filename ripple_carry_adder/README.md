@@ -1,4 +1,5 @@
 # Ripple Carry Adder
+This is a structural/gate-level implementation in a continuous assignment technique to create a ripple carry adder device (4-bit).
 
 ## How to compile?
 ```

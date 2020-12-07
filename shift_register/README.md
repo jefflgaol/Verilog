@@ -1,4 +1,5 @@
 # Shift Register
+This is a basic shift register implementation in a procedural assignment technique.
 
 ## How to compile?
 ```

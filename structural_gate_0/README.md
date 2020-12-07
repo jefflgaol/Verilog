@@ -1,4 +1,6 @@
 # Structural Gate 0
+This is a structural/gate-level implementation to create a device with behavior:
+
 
 | A | B | C | F |
 |---|---|---|---|

@@ -1,4 +1,5 @@
 # Automatic Result Checking
+This is an automatic result checking implementation to test a device with behavior:
 ```
 minterm = 1,3,9,11
 ```

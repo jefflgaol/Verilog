@@ -1,4 +1,5 @@
 # Case Gate
+This is a case statement implementation in a conditional procedural assignment to create a device with behavior:
 ```
 maxterm = 3,7,11,15
 ```

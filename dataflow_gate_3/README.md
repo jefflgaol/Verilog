@@ -1,6 +1,6 @@
 # Dataflow Gate 3
+This is a dataflow implementation using 'assign' to create a device with behavior:
 
-Truth table:
 | A | B | C | F |
 |---|---|---|---|
 | 0 | 0 | 0 | 1 |

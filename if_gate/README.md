@@ -1,4 +1,5 @@
-# Conditional Gate
+# If Gate
+This is an if statement implementation in a conditional procedural assignment to create a device with behavior:
 ```
 minterm = 1,3,9,11
 ```
