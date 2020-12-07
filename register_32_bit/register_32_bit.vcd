@@ -1,0 +1,129 @@
+$date
+	Mon Dec  7 17:23:35 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_register_32_bit $end
+$var wire 32 ! data_out [31:0] $end
+$var reg 1 " clock $end
+$var reg 32 # data_in [31:0] $end
+$var reg 1 $ enable $end
+$var reg 1 % reset $end
+$scope module comp_1 $end
+$var wire 1 " Clock $end
+$var wire 32 & Data_In [31:0] $end
+$var wire 1 $ Enable $end
+$var wire 1 % Reset $end
+$var reg 32 ' Data_Out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b1010 &
+1%
+0$
+b1010 #
+0"
+bx !
+$end
+#1
+1"
+#2
+0"
+b1011 #
+b1011 &
+#3
+1"
+#4
+0"
+b1100 #
+b1100 &
+#5
+b1100 !
+b1100 '
+1"
+1$
+#6
+0"
+b10101100 #
+b10101100 &
+#7
+b10101100 !
+b10101100 '
+1"
+#8
+b0 !
+b0 '
+0"
+b110010 #
+b110010 &
+0%
+#9
+1"
+#10
+0"
+b1010000 #
+b1010000 &
+1%
+#11
+b1010000 !
+b1010000 '
+1"
+#12
+0"
+b100000 #
+b100000 &
+#13
+b100000 !
+b100000 '
+1"
+#14
+0"
+b1011 #
+b1011 &
+#15
+b1011 !
+b1011 '
+1"
+#16
+0"
+b1100 #
+b1100 &
+#17
+b1100 !
+b1100 '
+1"
+#18
+0"
+b10101100 #
+b10101100 &
+#19
+b10101100 !
+b10101100 '
+1"
+#20
+0"
+b110010 #
+b110010 &
+#21
+b110010 !
+b110010 '
+1"
+#22
+0"
+b1010000 #
+b1010000 &
+#23
+b1010000 !
+b1010000 '
+1"
+#24
+0"
+b100000 #
+b100000 &
