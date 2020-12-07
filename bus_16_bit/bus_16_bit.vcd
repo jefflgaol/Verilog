@@ -1,0 +1,128 @@
+$date
+	Mon Dec  7 19:04:18 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_bus_16_bit $end
+$var wire 16 ! regd [15:0] $end
+$var wire 16 " regc [15:0] $end
+$var wire 16 # regb [15:0] $end
+$var wire 16 $ rega [15:0] $end
+$var reg 1 % a_en $end
+$var reg 1 & b_en $end
+$var reg 1 ' c_en $end
+$var reg 1 ( clock $end
+$var reg 1 ) d_en $end
+$var reg 16 * data_bus [15:0] $end
+$var reg 1 + reset $end
+$scope module comp_1 $end
+$var wire 1 % A_EN $end
+$var wire 1 & B_EN $end
+$var wire 1 ' C_EN $end
+$var wire 1 ( Clock $end
+$var wire 1 ) D_EN $end
+$var wire 16 , Data_Bus [15:0] $end
+$var wire 1 + Reset $end
+$var wire 16 - RegD [15:0] $end
+$var wire 16 . RegC [15:0] $end
+$var wire 16 / RegB [15:0] $end
+$var wire 16 0 RegA [15:0] $end
+$scope module register_A $end
+$var wire 1 ( Clock $end
+$var wire 16 1 Data_In [15:0] $end
+$var wire 1 % Enable $end
+$var wire 1 + Reset $end
+$var reg 16 2 Data_Out [15:0] $end
+$upscope $end
+$scope module register_B $end
+$var wire 1 ( Clock $end
+$var wire 16 3 Data_In [15:0] $end
+$var wire 1 & Enable $end
+$var wire 1 + Reset $end
+$var reg 16 4 Data_Out [15:0] $end
+$upscope $end
+$scope module register_C $end
+$var wire 1 ( Clock $end
+$var wire 16 5 Data_In [15:0] $end
+$var wire 1 ' Enable $end
+$var wire 1 + Reset $end
+$var reg 16 6 Data_Out [15:0] $end
+$upscope $end
+$scope module register_D $end
+$var wire 1 ( Clock $end
+$var wire 16 7 Data_In [15:0] $end
+$var wire 1 ) Enable $end
+$var wire 1 + Reset $end
+$var reg 16 8 Data_Out [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 8
+b1010 7
+b0 6
+b1010 5
+b0 4
+b1010 3
+b0 2
+b1010 1
+b0 0
+b0 /
+b0 .
+b0 -
+b1010 ,
+0+
+b1010 *
+0)
+0(
+0'
+0&
+0%
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#1
+b1010 $
+b1010 0
+b1010 2
+1%
+1+
+1(
+#2
+0%
+0(
+#3
+b1010 #
+b1010 /
+b1010 4
+1&
+1(
+#4
+0&
+0(
+#5
+b1010 "
+b1010 .
+b1010 6
+1'
+1(
+#6
+0'
+0(
+#7
+b1010 !
+b1010 -
+b1010 8
+1)
+1(
+#8
+0)
+0(
