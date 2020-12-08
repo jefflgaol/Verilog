@@ -1,4 +1,4 @@
-# Structural Gate 0
+# Structural Gate
 This is a structural/gate-level implementation to create a device with behavior:
 
 
