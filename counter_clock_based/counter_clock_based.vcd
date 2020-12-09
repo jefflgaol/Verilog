@@ -1,0 +1,94 @@
+$date
+	Wed Dec  9 15:38:48 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_counter_clock_based $end
+$var wire 16 ! count_out [15:0] $end
+$var reg 1 " clock $end
+$var reg 16 # count_in [15:0] $end
+$var reg 1 $ en $end
+$var reg 1 % load $end
+$var reg 1 & reset $end
+$scope module DUT $end
+$var wire 1 " Clock $end
+$var wire 16 ' Count_In [15:0] $end
+$var wire 1 $ En $end
+$var wire 1 % Load $end
+$var wire 1 & Reset $end
+$var reg 16 ( Count_Out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+1&
+0%
+0$
+bx #
+0"
+bx !
+$end
+#1
+b0 !
+b0 (
+0&
+1"
+#2
+1&
+0"
+#3
+1"
+#4
+0"
+#5
+b1 !
+b1 (
+1"
+1$
+#6
+0"
+#7
+b10 !
+b10 (
+1"
+#8
+0"
+#9
+b11 !
+b11 (
+1"
+#10
+0"
+b101110100101110 #
+b101110100101110 '
+1%
+#11
+b101110100101110 !
+b101110100101110 (
+1"
+#12
+0"
+0%
+#13
+b101110100101111 !
+b101110100101111 (
+1"
+#14
+0"
+#15
+b101110100110000 !
+b101110100110000 (
+1"
+#16
+0"
+#17
+b101110100110001 !
+b101110100110001 (
+1"
