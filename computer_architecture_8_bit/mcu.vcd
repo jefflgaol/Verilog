@@ -1,0 +1,540 @@
+$date
+	Sat Dec 12 00:59:38 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mcu $end
+$var wire 8 ! port_out_15 [7:0] $end
+$var wire 8 " port_out_14 [7:0] $end
+$var wire 8 # port_out_13 [7:0] $end
+$var wire 8 $ port_out_12 [7:0] $end
+$var wire 8 % port_out_11 [7:0] $end
+$var wire 8 & port_out_10 [7:0] $end
+$var wire 8 ' port_out_09 [7:0] $end
+$var wire 8 ( port_out_08 [7:0] $end
+$var wire 8 ) port_out_07 [7:0] $end
+$var wire 8 * port_out_06 [7:0] $end
+$var wire 8 + port_out_05 [7:0] $end
+$var wire 8 , port_out_04 [7:0] $end
+$var wire 8 - port_out_03 [7:0] $end
+$var wire 8 . port_out_02 [7:0] $end
+$var wire 8 / port_out_01 [7:0] $end
+$var wire 8 0 port_out_00 [7:0] $end
+$var reg 1 1 clock $end
+$var reg 8 2 port_in_00 [7:0] $end
+$var reg 8 3 port_in_01 [7:0] $end
+$var reg 8 4 port_in_02 [7:0] $end
+$var reg 8 5 port_in_03 [7:0] $end
+$var reg 8 6 port_in_04 [7:0] $end
+$var reg 8 7 port_in_05 [7:0] $end
+$var reg 8 8 port_in_06 [7:0] $end
+$var reg 8 9 port_in_07 [7:0] $end
+$var reg 8 : port_in_08 [7:0] $end
+$var reg 8 ; port_in_09 [7:0] $end
+$var reg 8 < port_in_10 [7:0] $end
+$var reg 8 = port_in_11 [7:0] $end
+$var reg 8 > port_in_12 [7:0] $end
+$var reg 8 ? port_in_13 [7:0] $end
+$var reg 8 @ port_in_14 [7:0] $end
+$var reg 8 A port_in_15 [7:0] $end
+$var reg 1 B reset $end
+$scope module DUT $end
+$var wire 1 1 Clock $end
+$var wire 8 C Port_In_00 [7:0] $end
+$var wire 8 D Port_In_01 [7:0] $end
+$var wire 8 E Port_In_02 [7:0] $end
+$var wire 8 F Port_In_03 [7:0] $end
+$var wire 8 G Port_In_04 [7:0] $end
+$var wire 8 H Port_In_05 [7:0] $end
+$var wire 8 I Port_In_06 [7:0] $end
+$var wire 8 J Port_In_07 [7:0] $end
+$var wire 8 K Port_In_08 [7:0] $end
+$var wire 8 L Port_In_09 [7:0] $end
+$var wire 8 M Port_In_10 [7:0] $end
+$var wire 8 N Port_In_11 [7:0] $end
+$var wire 8 O Port_In_12 [7:0] $end
+$var wire 8 P Port_In_13 [7:0] $end
+$var wire 8 Q Port_In_14 [7:0] $end
+$var wire 8 R Port_In_15 [7:0] $end
+$var wire 1 B Reset $end
+$var wire 1 S Write $end
+$var wire 8 T To_Memory_Data_In [7:0] $end
+$var wire 8 U Port_Out_15 [7:0] $end
+$var wire 8 V Port_Out_14 [7:0] $end
+$var wire 8 W Port_Out_13 [7:0] $end
+$var wire 8 X Port_Out_12 [7:0] $end
+$var wire 8 Y Port_Out_11 [7:0] $end
+$var wire 8 Z Port_Out_10 [7:0] $end
+$var wire 8 [ Port_Out_09 [7:0] $end
+$var wire 8 \ Port_Out_08 [7:0] $end
+$var wire 8 ] Port_Out_07 [7:0] $end
+$var wire 8 ^ Port_Out_06 [7:0] $end
+$var wire 8 _ Port_Out_05 [7:0] $end
+$var wire 8 ` Port_Out_04 [7:0] $end
+$var wire 8 a Port_Out_03 [7:0] $end
+$var wire 8 b Port_Out_02 [7:0] $end
+$var wire 8 c Port_Out_01 [7:0] $end
+$var wire 8 d Port_Out_00 [7:0] $end
+$var wire 8 e From_Memory_Data_Out [7:0] $end
+$var wire 8 f Address [7:0] $end
+$scope module comp_1 $end
+$var wire 1 1 Clock $end
+$var wire 1 B Reset $end
+$var wire 1 S Write $end
+$var wire 8 g To_Memory [7:0] $end
+$var wire 1 h Pc_Load $end
+$var wire 1 i Pc_Inc $end
+$var wire 1 j Mar_Load $end
+$var wire 1 k Ir_Load $end
+$var wire 8 l Ir [7:0] $end
+$var wire 8 m From_Memory [7:0] $end
+$var wire 4 n Ccr_Result [3:0] $end
+$var wire 1 o Ccr_Load $end
+$var wire 2 p Bus2_Sel [1:0] $end
+$var wire 2 q Bus1_Sel [1:0] $end
+$var wire 1 r B_Load $end
+$var wire 3 s Alu_Sel [2:0] $end
+$var wire 8 t Address [7:0] $end
+$var wire 1 u A_Load $end
+$scope module comp_1 $end
+$var wire 1 1 Clock $end
+$var wire 1 B Reset $end
+$var wire 8 v Ir [7:0] $end
+$var wire 4 w Ccr_Result [3:0] $end
+$var reg 1 u A_Load $end
+$var reg 3 x Alu_Sel [2:0] $end
+$var reg 1 r B_Load $end
+$var reg 2 y Bus1_Sel [1:0] $end
+$var reg 2 z Bus2_Sel [1:0] $end
+$var reg 1 o Ccr_Load $end
+$var reg 8 { Current_State [7:0] $end
+$var reg 1 k Ir_Load $end
+$var reg 1 j Mar_Load $end
+$var reg 8 | Next_State [7:0] $end
+$var reg 1 i Pc_Inc $end
+$var reg 1 h Pc_Load $end
+$var reg 1 S Write $end
+$upscope $end
+$scope module comp_2 $end
+$var wire 1 u A_Load $end
+$var wire 3 } Alu_Sel [2:0] $end
+$var wire 1 r B_Load $end
+$var wire 2 ~ Bus1_Sel [1:0] $end
+$var wire 2 !" Bus2_Sel [1:0] $end
+$var wire 1 o Ccr_Load $end
+$var wire 1 1 Clock $end
+$var wire 1 k Ir_Load $end
+$var wire 1 j Mar_Load $end
+$var wire 1 i Pc_Inc $end
+$var wire 1 h Pc_Load $end
+$var wire 1 B Reset $end
+$var wire 4 "" Nzvc [3:0] $end
+$var wire 8 #" From_Memory [7:0] $end
+$var wire 8 $" Alu_Result [7:0] $end
+$var reg 8 %" A [7:0] $end
+$var reg 8 &" Address [7:0] $end
+$var reg 8 '" B [7:0] $end
+$var reg 8 (" Bus1 [7:0] $end
+$var reg 8 )" Bus2 [7:0] $end
+$var reg 4 *" Ccr_Result [3:0] $end
+$var reg 8 +" Ir [7:0] $end
+$var reg 8 ," Mar [7:0] $end
+$var reg 8 -" Pc [7:0] $end
+$var reg 8 ." To_Memory [7:0] $end
+$scope module comp_1 $end
+$var wire 8 /" A [7:0] $end
+$var wire 3 0" Alu_Sel [2:0] $end
+$var wire 8 1" B [7:0] $end
+$var reg 8 2" Alu_Result [7:0] $end
+$var reg 4 3" Nzvc [3:0] $end
+$var reg 8 4" Result [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module comp_2 $end
+$var wire 8 5" Address [7:0] $end
+$var wire 1 1 Clock $end
+$var wire 8 6" Data_In [7:0] $end
+$var wire 8 7" Port_In_00 [7:0] $end
+$var wire 8 8" Port_In_01 [7:0] $end
+$var wire 8 9" Port_In_02 [7:0] $end
+$var wire 8 :" Port_In_03 [7:0] $end
+$var wire 8 ;" Port_In_04 [7:0] $end
+$var wire 8 <" Port_In_05 [7:0] $end
+$var wire 8 =" Port_In_06 [7:0] $end
+$var wire 8 >" Port_In_07 [7:0] $end
+$var wire 8 ?" Port_In_08 [7:0] $end
+$var wire 8 @" Port_In_09 [7:0] $end
+$var wire 8 A" Port_In_10 [7:0] $end
+$var wire 8 B" Port_In_11 [7:0] $end
+$var wire 8 C" Port_In_12 [7:0] $end
+$var wire 8 D" Port_In_13 [7:0] $end
+$var wire 8 E" Port_In_14 [7:0] $end
+$var wire 8 F" Port_In_15 [7:0] $end
+$var wire 1 B Reset $end
+$var wire 1 S Write $end
+$var wire 1 G" clock $end
+$var wire 8 H" Rw_Data_Out [7:0] $end
+$var wire 8 I" Rom_Data_Out [7:0] $end
+$var wire 8 J" Port_Out_15 [7:0] $end
+$var wire 8 K" Port_Out_14 [7:0] $end
+$var wire 8 L" Port_Out_13 [7:0] $end
+$var wire 8 M" Port_Out_12 [7:0] $end
+$var wire 8 N" Port_Out_11 [7:0] $end
+$var wire 8 O" Port_Out_10 [7:0] $end
+$var wire 8 P" Port_Out_09 [7:0] $end
+$var wire 8 Q" Port_Out_08 [7:0] $end
+$var wire 8 R" Port_Out_07 [7:0] $end
+$var wire 8 S" Port_Out_06 [7:0] $end
+$var wire 8 T" Port_Out_05 [7:0] $end
+$var wire 8 U" Port_Out_04 [7:0] $end
+$var wire 8 V" Port_Out_03 [7:0] $end
+$var wire 8 W" Port_Out_02 [7:0] $end
+$var wire 8 X" Port_Out_01 [7:0] $end
+$var wire 8 Y" Port_Out_00 [7:0] $end
+$var reg 8 Z" Data_Out [7:0] $end
+$scope module comp_1 $end
+$var wire 8 [" Address [7:0] $end
+$var wire 1 G" Clock $end
+$var reg 8 \" Data_Out [7:0] $end
+$var reg 1 ]" En $end
+$upscope $end
+$scope module comp_2 $end
+$var wire 8 ^" Address [7:0] $end
+$var wire 1 G" Clock $end
+$var wire 8 _" Data_In [7:0] $end
+$var wire 1 S Write $end
+$var reg 8 `" Data_Out [7:0] $end
+$var reg 1 a" En $end
+$upscope $end
+$scope module comp_3 $end
+$var wire 8 b" Address [7:0] $end
+$var wire 1 1 Clock $end
+$var wire 8 c" Data_In [7:0] $end
+$var wire 1 B Reset $end
+$var wire 1 S Write $end
+$var reg 8 d" Port_Out_00 [7:0] $end
+$var reg 8 e" Port_Out_01 [7:0] $end
+$var reg 8 f" Port_Out_02 [7:0] $end
+$var reg 8 g" Port_Out_03 [7:0] $end
+$var reg 8 h" Port_Out_04 [7:0] $end
+$var reg 8 i" Port_Out_05 [7:0] $end
+$var reg 8 j" Port_Out_06 [7:0] $end
+$var reg 8 k" Port_Out_07 [7:0] $end
+$var reg 8 l" Port_Out_08 [7:0] $end
+$var reg 8 m" Port_Out_09 [7:0] $end
+$var reg 8 n" Port_Out_10 [7:0] $end
+$var reg 8 o" Port_Out_11 [7:0] $end
+$var reg 8 p" Port_Out_12 [7:0] $end
+$var reg 8 q" Port_Out_13 [7:0] $end
+$var reg 8 r" Port_Out_14 [7:0] $end
+$var reg 8 s" Port_Out_15 [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 s"
+b0 r"
+b0 q"
+b0 p"
+b0 o"
+b0 n"
+b0 m"
+b0 l"
+b0 k"
+b0 j"
+b0 i"
+b0 h"
+b0 g"
+b0 f"
+b0 e"
+b0 d"
+bz c"
+b0 b"
+0a"
+bx `"
+bz _"
+b0 ^"
+1]"
+bx \"
+b0 ["
+bx Z"
+b0 Y"
+b0 X"
+b0 W"
+b0 V"
+b0 U"
+b0 T"
+b0 S"
+b0 R"
+b0 Q"
+b0 P"
+b0 O"
+b0 N"
+b0 M"
+b0 L"
+b0 K"
+b0 J"
+bx I"
+bx H"
+zG"
+bx F"
+bx E"
+bx D"
+bx C"
+bx B"
+bx A"
+bx @"
+bx ?"
+bx >"
+bx ="
+bx <"
+bx ;"
+bx :"
+bx 9"
+bx 8"
+bx 7"
+bz 6"
+b0 5"
+b0 4"
+b110 3"
+bx 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ."
+b0 -"
+b0 ,"
+b0 +"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b0 &"
+b0 %"
+bx $"
+bx #"
+b110 ""
+b1 !"
+b0 ~
+b0 }
+b1 |
+b0 {
+b1 z
+b0 y
+b0 x
+b0 w
+b0 v
+0u
+b0 t
+b0 s
+0r
+b0 q
+b1 p
+0o
+b0 n
+bx m
+b0 l
+0k
+1j
+0i
+0h
+b0 g
+b0 f
+bx e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+0S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+0B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+11
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#1
+1B
+01
+#2
+1i
+0j
+b10 |
+b1 {
+11
+#3
+01
+#4
+b10 ""
+b10 3"
+b1 4"
+bx )"
+b1 T
+b1 g
+b1 ."
+b10 p
+b10 z
+b10 !"
+0i
+1h
+b11 |
+b1 ("
+b1 1"
+b10 {
+b1 -"
+11
+#5
+01
+#6
+bx010 ""
+bx010 3"
+bx 4"
+bx T
+bx g
+bx ."
+bx ("
+bx 1"
+b0 |
+bx -"
+b11 {
+11
+#7
+01
+#8
+b1 p
+b1 z
+b1 !"
+0h
+1j
+b1 |
+b0 {
+11
+#9
+01
+#10
+0]"
+bx f
+bx t
+bx &"
+bx 5"
+bx ["
+bx ^"
+bx b"
+1i
+0j
+b10 |
+bx ,"
+b1 {
+11
+#11
+01
+#12
+b10 p
+b10 z
+b10 !"
+0i
+1h
+b11 |
+b10 {
+11
+#13
+01
+#14
+b0 |
+b11 {
+11
+#15
+01
+#16
+b1 p
+b1 z
+b1 !"
+0h
+1j
+b1 |
+b0 {
+11
+#17
+01
+#18
+1i
+0j
+b10 |
+b1 {
+11
+#19
+01
+#20
+b10 p
+b10 z
+b10 !"
+0i
+1h
+b11 |
+b10 {
+11
