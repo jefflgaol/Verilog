@@ -1,4 +1,4 @@
-module rom (
+module rw (
     output reg [7:0] Data_Out,
     input wire [3:0] Address,
     input wire [7:0] Data_In,
@@ -20,14 +20,14 @@ module rom (
 
 endmodule
 
-module tb_rom ();
+module tb_rw ();
 
     wire [7:0] data_out;
     reg [3:0] address;
     reg [7:0] data_in;
     reg we, clock;
 
-    rom DUT (.Data_Out(data_out), .Address(address), .Data_In(data_in), .WE(we), .Clock(clock));
+    rw DUT (.Data_Out(data_out), .Address(address), .Data_In(data_in), .WE(we), .Clock(clock));
 
     // Clock
     initial
@@ -41,8 +41,8 @@ module tb_rom ();
 
     initial
         begin
-            $dumpfile("rom.vcd");
-            $dumpvars(0, tb_rom);
+            $dumpfile("rw.vcd");
+            $dumpvars(0, tb_rw);
             #5 address = 4'b0010;
             #1 data_in = 16'hAA;
             #3 we = 1'b1;

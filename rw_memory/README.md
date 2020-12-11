@@ -1,5 +1,5 @@
-# Read Only Memory
-This is a read only memory implementation (synchronous), which initializes the memory from an external file.
+# Read/Write Memory
+This is a read/write memory implementation (synchronous), which initializes the memory from an external file.
 
 ## How to compile?
 ```
