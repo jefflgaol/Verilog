@@ -31,7 +31,7 @@ register_32_bit comp_1(.Data_Out(data_out), .Data_In(data_in), .Enable(enable), 
 initial
     begin
         enable = 1'b0;
-        #5
+        #9
         enable = 1'b1;
     end
 
@@ -50,7 +50,7 @@ always
 initial
     begin
         reset = 1'b1;
-        #8 reset = 1'b0;
+        #2 reset = 1'b0;
         #2 reset = 1'b1;
     end
 
@@ -64,6 +64,7 @@ initial
         #2 data_in = 32'hAC;
         #2 data_in = 32'h32;
         #2 data_in = 32'h50;
+        #2 enable = 1'b0;
         #2 data_in = 32'h20;
         #2 data_in = 32'hB;
         #2 data_in = 32'hC;
